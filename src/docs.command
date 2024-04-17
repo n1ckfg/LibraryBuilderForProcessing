@@ -10,4 +10,4 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 cd $DIR
 
-javadoc -d ../reference LibraryBuilderForProcessing
+javadoc -cp /Applications/Processing.app/Contents/Java/core.jar -d ../reference LibraryBuilderForProcessing/*.java

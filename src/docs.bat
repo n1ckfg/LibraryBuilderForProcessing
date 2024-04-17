@@ -2,6 +2,6 @@
 
 cd %~dp0
 
-javadoc -d ..\reference LibraryBuilderForProcessing
+javadoc -cp "C:\Program Files\processing\core\library\core.jar" -d ..\reference LibraryBuilderForProcessing\*.java 
 
 @pause
